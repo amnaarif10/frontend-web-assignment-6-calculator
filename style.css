@@ -31,10 +31,14 @@ body {
     padding: 20px 15px;
     color: white;
     font-size: 2.5rem;
-    text-align: right;
-    font-weight: 50px;
+    text-align: left;
+    font-weight: 50;
     display: flex;
+    overflow: hidden;
     align-items: flex-end;
+    word-wrap: break-word;
+    word-break: break-all;
+    box-sizing: border-box;
 }
 
 .keys {
@@ -82,5 +86,12 @@ body {
 
 .btn-clear{
     font-size: 25px;
-    background-color: rgba(128, 128, 128, 0.404);
+    background-color: rgba(8, 33, 143, 0.897);
+    color: aliceblue;
+}
+
+.btn.del{
+    color: aliceblue;
+    font-size: 25px;
+    background-color: rgb(153, 51, 51);
 }
